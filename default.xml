@@ -10,17 +10,17 @@
            fetch="git://git.kernel.org" />
 
   <remote  name="aosp"
-           fetch"https://android.googlesource.com" />
+           fetch="https://android.googlesource.com" />
 
   <default revision="refs/heads/master"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="src/fiasco" name="jehoffmann/fiasco" remote="github" />
-  <project path="src/l4re" name="jehoffmann/l4re" remote="github" />
-  <project path="src/tools" name="jehoffmann/l4_tools" remote="github" />
-  <project path="src/l4linux" name="jehoffmann/l4linux" remote="github" />
+  <project path="fiasco" name="jehoffmann/fiasco" remote="github" />
+  <project path="l4re" name="jehoffmann/l4re" remote="github" />
+  <project path="tools" name="jehoffmann/l4_tools" remote="github" />
+  <project path="l4linux" name="jehoffmann/l4linux" remote="github" />
 
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" remote="aosp" />
 
