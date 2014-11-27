@@ -12,6 +12,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org/" />
+
   <default revision="refs/heads/master"
            remote="github"
            sync-c="true"
@@ -22,7 +25,7 @@
   <project path="tools" name="jehoffmann/l4_tools" remote="github" />
   <project path="l4linux" name="jehoffmann/l4linux" remote="github" />
 
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" remote="aosp" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" remote="linaro" />
 
   <remove-project path="src/tools" name="jehoffmann/l4_tools" />
 
