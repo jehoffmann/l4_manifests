@@ -26,6 +26,8 @@
   <project path="l4linux" name="jehoffmann/l4linux" remote="github" />
 
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" remote="linaro" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="linaro" />
+
 
   <remove-project path="src/tools" name="jehoffmann/l4_tools" />
 
